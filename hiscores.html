@@ -33,7 +33,7 @@
   <body>
 
   <section id="container" >
-                        <div class="progress xp-bar">
+      <div class="progress xp-bar">
 						  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
 						    <span class="sr-only">450 / 3000</span>
 						  </div>
@@ -51,7 +51,7 @@
             <!--logo end-->
             <ul class="pull-right">
                 <li>Hello, <a href="#">YAN</a></li>
-                <a href="../#"><li>Logout</li></a>
+                <a href="#"><li>Logout</li></a>
             </ul>
             
             
@@ -71,14 +71,14 @@
               	  <h5 class="centered">Yan Gimenes</h5>
               	  	
                   <li class="mt">
-                      <a class="active" href="index.html">
+                      <a href="index.html">
                           <img style="width: 35px;" src="assets/img/startup.svg">
                           <span style="font-size: 16px;">Dashboard</span>
                       </a>
                   </li>
 
                   <li class="sub-menu">
-                      <a href="hiscores.html" >
+                      <a class="active" href="hiscores.html" >
                           <img style="width: 35px;" src="assets/img/crown.svg">
                           <span style="font-size: 16px;">Hiscores</span>
                       </a>                     
@@ -111,87 +111,61 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper">
+              <div class="row" style="margin-left: 0%;"> <h3>Hiscores</h3> </div>
+                <div class="row mt">                    
+                    <div class="col-md-4">
+                        <select class="form-control">
+						  <option>Globe</option>
+						  <option>Region</option>
+						  <option>Social</option>
+						</select>
+                    </div>
+                </div>
+              <div style="margin-top: 2%" class="row">
+                    <div class="col-md-4 col-sm-4 mb">
+                      		<div style="background-color: #f39c12" class="darkblue-panel pn">
+                      			<div class="darkblue-header">
+						  			<h5>JACKIE CHAN</h5>
+                      			</div>
+                      			<p class="centered mt"><a href="profile.html"><img src="assets/img/jackie.jpg" class="img-circle" width="60"></a></p>
+								<p>+ 1,789 COLABORATIONS</p>
+								<footer>
+									<div class="centered">
+										<h5><i class="fa fa-trophy"></i> 17,988</h5>
+									</div>
+								</footer>
+                      		</div><! -- /darkblue panel -->
+                      	</div><!-- /col-md-4 -->
 
-              <div class="row">
-                  <div class="col-lg-12 col-md-12 main-chart">
-                      <div class="col-lg-6">
-                          <div class="content-panel">
-	                  	  	  <h4>COLABORATIONS</h4>
-	                  	  	  <hr>
-		                      <table class="table">
-		                          <thead>
-		                          <tr>
-		                              <th>#</th>
-		                              <th>LAST COLABORATIONS</th>
-		                              <th>DATE</th>
-		                              <th>STATUS</th>
-		                          </tr>
-		                          </thead>
-		                          <tbody>
-		                          <tr>
-		                              <td>1</td>
-		                              <td>UCSS</td>
-		                              <td>28/07/2016</td>
-		                              <td>  
-                                                  <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>  </td>
-		                          </tr>
-		                          <tr>
-		                              <td>2</td>
-		                              <td>STADAN</td>
-		                              <td>03/04/2017</td>
-		                              <td> 
-                                                  <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>  </td>
-		                          </tr>
-		                          <tr>
-		                              <td>3</td>
-		                              <td>SCISAT</td>
-		                              <td>02/03/2017</td>
-		                              <td>  
-                                                  <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button></td>
-		                          </tr>
-		                          </tbody>
-		                      </table>
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                          <div class="content-panel">
-	                  	  	  <h4>PENDING APROVALS</h4>
-	                  	  	  <hr>
-		                      <table class="table">
-		                          <thead>
-		                          <tr>
-		                              <th>#</th>
-		                              <th>LAST POSTED</th>
-		                              <th>DATE</th>
-		                              <th></th>
-		                          </tr>
-		                          </thead>
-		                          <tbody>
-		                          <tr>
-		                              <td>1</td>
-		                              <td>SG 4</td>
-		                              <td>25/04/2017</td>
-		                              <td style="width: 25%;">
-                                                     <button class="btn btn-success btn-xs"><i class=" fa fa-check"></i></button>
-                                                  <button class="btn btn-default btn-xs"><i class="fa  fa-eye"></i></button>
-                                                  <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>      </td>
-		                          </tr>
-		                          
-		                          <tr>
-		                              <td>2</td>
-		                              <td>HCS</td>
-		                              <td>25/05/2017</td>
-		                              <td style="width: 25%;">            
-                                          <button class="btn btn-success btn-xs"><i class=" fa fa-check"></i></button>
-                                                  <button class="btn btn-default btn-xs"><i class="fa fa-eye"></i></button>
-                                                  <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button> </td>
-		                          </tr>
-		                          
-		                          </tbody>
-		                      </table>
-                      </div>
-                  </div> 
-                </div>      
+                         <div class="col-md-4 col-sm-4 mb">
+                      		<div style="background-color: #95a5a6" class="darkblue-panel pn">
+                      			<div class="darkblue-header">
+						  			<h5>BILL GATES</h5>
+                      			</div>
+                      			<p class="centered mt"><a href="profile.html"><img src="assets/img/bill.jpeg" class="img-circle" width="60"></a></p>
+								<p>+ 959 COLABORATIONS</p>
+								<footer>
+									<div class="centered">
+										<h5><i class="fa fa-trophy"></i> 10,988</h5>
+									</div>
+								</footer>
+                      		</div><! -- /darkblue panel -->
+                      	</div><!-- /col-md-4 -->
+
+                          <div class="col-md-4 col-sm-4 mb">
+                      		<div style="background-color: #795548" class="darkblue-panel pn">
+                      			<div class="darkblue-header">
+						  			<h5>NEIL ARMSTRONG</h5>
+                      			</div>
+                      			<p class="centered mt"><a href="profile.html"><img src="assets/img/neil.jpg" class="img-circle" width="60"></a></p>
+								<p>+ 759 COLABORATIONS</p>
+								<footer>
+									<div class="centered">
+										<h5><i class="fa fa-trophy"></i> 7,988</h5>
+									</div>
+								</footer>
+                      		</div><! -- /darkblue panel -->
+                      	</div><!-- /col-md-4 -->
               
               </div><!--/row -->
           </section>
