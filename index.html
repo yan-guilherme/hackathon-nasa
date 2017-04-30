@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="mostPopularListingsApp" class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>New Horizons</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="resources/css/app.css">
+  <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+  <link rel="stylesheet" href="resources/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <base href="/">
+</head>
+<body> 
+
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <ul class="menu nav navbar-nav ">
+            <li><a href="#/"><img class="menu-icon" src="/resources/img/earth_non_select.svg"></a></li>
+            <li><a href="#/about"><img class="menu-icon" src="/resources/img/book_non_select.svg"></a></li>
+            <li><a href="#/login"><img class="menu-icon" src="/resources/img/rocket_non_select.svg"></a></li>
+          </ul> 
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav title">          
+          <li><img class="titulo-img" src="/resources/img/header.png"></li>         
+        </ul>        
+        <ul class="nav mt-1 navbar-nav navbar-right">
+          <li><a class="login" data-toggle="modal" href="../admin/login.html">LOGIN</a></li>         
+          <li><a class="signup" data-toggle="modal" data-target="#myModalLogin">SIGN UP</a></li>   
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  
+   <div class="modal fade" id="myModalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+		<div class="modal-header" style="border-bottom: none;">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-2x" aria-hidden="true"></i></span></button>
+			<h3>WHO ARE YOU?</h3>
+		</div>
+		<div class="modal-body">
+			<div class="row body-modal">
+				<div class="col-md-6">
+            <img class="astronault" src="/resources/img/astro2.svg">						
+            <button type="button" class="btn btn-scientist">IM SCIENTIST</button>	
+				</div>				
+				<div class="col-md-6">
+						<img class="astronault" src="/resources/img/student.svg">
+            <button type="button" class="btn btn-person">PUBLIC PERSON</button>	
+				</div>
+			</div>
+		</div>		
+		</div>
+	</div>
+	</div>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ng-view></div>
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="resources/bower/angular/angular.js"></script>
+  <script src="resources/bower/angular-route/angular-route.min.js"></script>
+  <script src="resources/js/jquery-3.2.1.min.js"></script>
+  <script src="resources/js/bootstrap.js"></script>
+  <script src="app.js"></script>
+  <script src="components/controllers/AboutController.js"></script>
+  <script src="components/controllers/HomeController.js"></script>
+  <script src="components/controllers/LoginController.js"></script>
+  <script src="components/controllers/CategoriasListCtrl.js"></script>
+  <script src="components/controllers/GalaxyViewCtrl.js"></script>
+
+</body>
+</html>
