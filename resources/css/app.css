@@ -1,0 +1,434 @@
+/* app css stylesheet */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.description {
+    color: white;
+    padding: 20px 0 0 33px;
+}
+
+/* 
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+.titulo-p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.half-bg {
+    position: fixed;
+    top: 170px;
+    left: -465px;  
+}
+
+.static-pin {
+    position: fixed;
+    top: 357px;
+    left: 218px;
+    width: 70px; 
+}
+
+.mg-0 {
+  margin: none !important;
+}
+
+.modal-dialog {
+    width: 780px !important;
+    margin: 70px auto !important;
+}
+
+.btn-colaborar{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 0;
+    border: none !important;
+    border-radius: 20px !important;
+    width: 200px;
+    height: 45px;
+    background-color: #e67e22 !important;
+    color: #fff !important;
+}
+.btn-scientist{    
+    border: none !important;
+    border-radius: 20px !important;
+    width: 100%;
+    height: 45px;
+    background-color: #e67e22 !important;
+    color: #fff !important;
+}
+.btn-person{   
+    border: none !important;
+    border-radius: 20px !important;
+    width: 100%;
+    height: 45px;
+    background-color: #3498db !important;
+    color: #fff !important;
+}
+
+.btn-colaborar-index {
+    z-index: 0;
+    /* opacity: 1; */
+    border: none !important;
+    border-radius: 20px !important;
+    width: 470px;
+    height: 40px;
+    background-color: #e67e22 !important;
+    color: #fff !important;
+}
+
+.body-modal {
+  min-height: 300px;
+}
+
+.border-b {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.23);
+    padding-bottom: 6px;
+}
+
+.low-img {
+  width: 40px;
+}
+
+.low-mg-top{
+  margin-top: 15px;
+}
+
+.high-mg-top{
+  margin-top: 65px;
+}
+
+.text-desc {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.ft-20 {
+  font-size: 20px;
+}
+
+.titulo-img {
+  width: 400px;
+    position: relative;
+    display: block;
+}
+.mg-1 {
+  margin: 10px;
+}
+
+.mt-1 {
+  margin-top: 10px !important;
+}
+
+.low-font{
+  font-size: 12px;
+}
+
+.full-bg {
+  position: fixed; 
+  top: 50px; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -1;
+}
+
+
+.menu-icon {
+  width: 42px;
+}
+
+.title{
+  color: #7f8c8d;
+  margin: 15px !important;
+  padding-left: 20% !important;
+}
+
+.login {
+  color: #ccc !important;  
+}
+
+.mg-top {
+  margin-top: 55px;
+}
+
+.btn-categories {
+  width: 200px;
+  height: 45px;
+  background-color: #2980b9 !important;
+  color: #fff !important;
+}
+
+.signup {
+  color: #fff !important;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.navbar-default {
+    background-color: #31373E !important;
+    border-color: #31373E !important;
+}
+
+.navbar {
+    border-radius: 0px !important;
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.center{
+  margin: 0 auto;
+  width:350px;
+  padding-top: 6px;
+}
+
+form { 
+margin: 0 auto; 
+width:220px;
+}
+
+input{
+  float: right;
+  height: 10px;
+}
+
+.astronault {
+  width: 230px;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.sol {
+    left: -240px;
+    position: fixed;
+    width: 385px;
+}
+.sol:hover {
+    left: -240px;
+    position: fixed;
+    width: 385px;
+    
+        -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.mercury {
+      width: 40px;
+    position: fixed;
+    margin-top: 180px;
+        left: 164px;
+}
+
+.mercury:hover {
+      width: 40px;
+    position: fixed;
+    margin-top: 180px;
+        left: 164px;
+        -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.venus {
+  width: 65px;
+    position: fixed;
+    margin-top: 168px;
+        left: 213px;
+}
+.venus:hover {
+  width: 65px;
+    position: fixed;
+    margin-top: 168px;
+        left: 213px;
+         -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.earth {
+      width: 125px;
+    position: fixed;
+    margin-top: 133px;
+        left: 284px;
+}
+.earth:hover {
+      width: 125px;
+    position: fixed;
+    margin-top: 133px;
+        left: 284px;
+        -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.mars {
+      width: 96px;
+    position: fixed;
+    margin-top: 150px;
+        left: 420px;
+}
+.mars:hover {
+      width: 96px;
+    position: fixed;
+    margin-top: 150px;
+        left: 420px;
+        -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.static-pin-galaxy {
+  position: fixed;
+    top: 344px;
+    left: 282px;
+    width: 70px;
+}
+.next-univ {
+    width: 200px;
+    opacity: 0.5;
+    position: fixed;
+    margin-top: 85px;
+    /* left: 1077px; */
+    right: -60px;
+    color: #999;
+    font-size: 250px !important;
+}
+
+.modal-index {
+        z-index: 1;
+    /* left: 20px; */
+    left: 400px;
+    width: 500px !important;
+    top: -38px;
+    /* height: 400px !important; */
+    opacity: 0.8;
+}
+
+.prev-univ {
+    width: 200px;
+    opacity: 0.5;
+    position: fixed;
+    margin-top: 190px;
+    /* left: 1077px; */
+    left: -60px;
+    color: #999;
+    font-size: 250px !important;
+}
+.categories-btn {  
+    font-size: 60px;
+    color: #16a085;
+}
+.categories-btn:hover {
+    font-size: 60px;
+    color: #16a085;
+    border-bottom: 1px solid #16a085;
+}
+.back-btn {
+  font-size: 60px;
+  color: #2c3e50;
+}
+.jupiter {
+          width: 210px;
+    position: fixed;
+    margin-top: 85px;
+    left: 525px;
+    height: 225px;
+}
+.jupiter:hover {
+          width: 210px;
+    position: fixed;
+    margin-top: 85px;
+    left: 525px;
+    height: 225px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.saturn {
+      width: 196px;
+    position: fixed;
+    margin-top: 83px;
+    left: 750px;
+}
+.saturn:hover {
+      width: 196px;
+    position: fixed;
+    margin-top: 83px;
+    left: 750px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.uranos {
+       width: 64px;
+    position: fixed;
+    margin-top: 155px;
+    left: 968px;
+
+}
+.uranos:hover {
+       width: 64px;
+    position: fixed;
+    margin-top: 155px;
+    left: 968px;
+    
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.neptuno {
+      width: 65px;
+    position: fixed;
+    margin-top: 154px;
+    left: 1077px;
+}
+.neptuno:hover {
+      width: 65px;
+    position: fixed;
+    margin-top: 154px;
+    left: 1077px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.pluto {
+        width: 23px;
+    position: fixed;
+    margin-top: 177px;
+    left: 1182px;
+}
+
+.pluto:hover {
+        width: 23px;
+    position: fixed;
+    margin-top: 177px;
+    left: 1182px;
+    
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+
